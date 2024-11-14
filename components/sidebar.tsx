@@ -50,7 +50,7 @@ export default function Sidebar() {
       }`}
     >
       <Button
-        size="icon1"
+        size="icon"
         className={`absolute right-5 top-2 z-50 translate-x-full rounded-l-none bg-zinc-800 rounded-full text-zinc-400 hover:bg-zinc-800/90 hover:text-zinc-100 ${isOpen ? "" : "top-16"}`}
         onClick={toggleSidebar}
       >
